@@ -1,0 +1,23 @@
+body {
+    background: #f1f5f9;
+}
+
+.container {
+    background: #fff;
+}
+
+h2 {
+    color: #3c04b5;
+}
+
+.special {
+    color: #f6fa28;
+}
+
+.special2 {
+    color: #fff;
+}
+
+.special-container {
+    background: rgba(1, 45, 13, 0.692);
+}

@@ -1,0 +1,51 @@
+/* Basic colors and backgrounds */
+
+#one {
+    color: white;
+    background-color: black;
+}
+
+#two {
+    color: blue;
+    background-color: yellow;
+}
+
+#three {
+    color: red;
+    background: pink;
+}
+
+/* RGB = red, green and blue */
+
+.four {
+    color: rgb(252, 252, 252);
+    background: rgb(189, 4, 4);
+}
+
+.five {
+    color: rgb(194, 229, 252);
+    background: rgb(2, 6, 107);
+}
+
+body {
+    background: rgb(250, 250, 237);
+}
+
+/* RGBA = red, green, blue and alpha */
+
+.six {
+    color: rgba(245, 207, 39, 0.8);
+    background: rgba(7, 72, 7, 0.8);
+}
+
+.seven {
+    color: rgba(219, 221, 219, 0.8);
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* HEX */
+
+.eight {
+    color: #fff;
+    background: #51038c;
+}
