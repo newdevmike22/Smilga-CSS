@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+    height: 6rem;
+    background: #fff;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f70511;
+    text-transform: uppercase;
+}
+
+.hero {
+    color: #fff;
+    background: black;
+    min-height: calc(100vh - 3rem);
+}
+
+.hero span {
+    color: #f5e427;
+    font-size: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.15rem;
+    color: #f8f7fa;
+}
+
+.hero button {
+    color: #fff;
+    background: #f70511;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
