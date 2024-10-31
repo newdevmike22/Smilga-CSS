@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto;
+    background: #f1f5f9;
+}
+
+.card {
+    background: #fff;
+    padding: 3rem;
+    text-align: center;
+    max-width: 400px;
+    margin: 3rem auto;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+.card-1 {
+    border: 1px solid #ff69a6;
+    margin: 2rem auto 0;
+
+    .icon img {
+        width: 150px;
+        height: auto;
+        background-color: #ff69a6;
+        border-radius: 50%;   
+    }
+
+    .title {
+        font-family: Orbitron;
+        font-size: 2rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;    
+    }
+}
+
+.card-2 {
+    border: 1px solid #68a3ff;
+
+    .icon img {
+        width: 150px;
+        height: auto;
+        background-color: #68a3ff;
+        border-radius: 50%;
+    }
+
+    .title {
+        font-family: Matemasie;
+        font-size: 2.25rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+
+.text {
+    font-size: 1.25rem;
+    line-height: normal;
+    color: #64748b;
+}
+
+.btn {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: transparent;
+    border-radius: 5px;
+    padding: 1rem 1.5rem;
+    letter-spacing: normal;
+    margin: 10px;
+}
+
+.btn-pink {
+    background: #ffe8f1;
+    color: #ff69a6;
+}
+
+.btn-blue {
+    background: #ecf4ff;
+    color: #68a3ff;
+}
+
