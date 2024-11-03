@@ -1,0 +1,100 @@
+/* DISPLAY ELEMENTS
+block: Always start a new line and spans full width. div, headings, p
+inline: Does not start a new line and spans only content. span, a, img
+*/
+
+.block {
+    background: blue;
+    color: #fff;
+    width: 400px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.inline {
+    background: red;
+    color: #fff;
+    text-align: center;
+}
+
+.reverse1 {
+    background: blue;
+    color: #fff;
+    display: inline;
+    text-align: center;
+}
+
+.reverse2 {
+    background: red;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.box-1, .box-2, .box-3 {
+    color: #fff;
+    width: 300px;
+    height: 300px;
+    font-size: 1.5rem;
+}
+
+.box-1 {
+    background: red;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.box-2 {
+    background: blue;
+}
+
+.box-3 {
+    background: purple;
+}
+
+.diva {
+    font-size: 1.5rem;
+    background: red;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    margin: 40px 10px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.displays {
+    background: orangered;
+}
+
+.none, 
+.opacity-1, 
+.opacity-5, 
+.opacity-0, 
+.visibility {
+    margin: 10px;
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.none {
+    display: none;
+}
+
+.opacity-1 {
+    opacity: 1;
+}
+
+.opacity-5 {
+    opacity: 0.5;
+}
+
+.opacity-0 {
+    opacity: 0;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
