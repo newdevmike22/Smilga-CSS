@@ -1,0 +1,77 @@
+/* background-repeat, background-size, background-position, background-attachment, linear gradients */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    color: #fff;
+    border: 2px solid #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big-img {
+    background: url(./images/big.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.small-img {
+    background: url(./images/folder-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.folder-img {
+    background: linear-gradient(
+        to top, rgba(0,0,0,0.3), 
+        rgba(255,100,240,0.5)), 
+        url(./images/big.jpeg)
+        center/cover no-repeat fixed;
+}
+
+.colorzilla {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cc8904+12,bf0319+50,6d0019+100 */
+    background: linear-gradient(45deg,  #cc8904 12%,#bf0319 50%,#6d0019 100%); 
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/*
+.gradient {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.one {
+    background: linear-gradient(purple, gold);
+}
+
+.two {
+    background: linear-gradient(to top, blue, green, gold);
+}
+
+.three {
+    background: linear-gradient(315deg, #c70404, orange);
+}
+
+.four {
+    background: linear-gradient(#c70404 35%, grey);
+}
+
+.five {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+}
+/*
