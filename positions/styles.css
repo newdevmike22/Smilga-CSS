@@ -1,21 +1,30 @@
 /*
 position:absolute - relative to the parent with position:relative.
-
+position:fixed - relative to viewport(screen), stays in place as we are scolling.
+Will use other content to fill out the space.
 */
+
+.nav {
+    background: red;
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
 
 div {
     border: 2px solid purple;
     background: gold;
     margin-top: 40px;
-    /* position: relative; */
 }
 
 .one {
     background: blue;
     color: #fff;
-    top: 0; 
-    left: 0;
-    position: absolute; 
 }
 
 .two {
@@ -28,9 +37,6 @@ div {
     color: #222;
     font-size: 1.5rem;
     color:#222;
-    /* position: absolute; */
-    top: 0;
-    left: 0;
 }
 
 .container {
