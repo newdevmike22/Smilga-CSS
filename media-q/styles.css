@@ -1,0 +1,53 @@
+/*
+Media Queries
+Responsive Design
+Style Elements on different screen sizes
+min-width: -- starting from
+max-width: -- up to
+Mobile First
+*/
+
+body {
+    background: #faf9af;
+}
+
+.banner {
+    background: blue;
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (min-width:576px) {
+    body {
+        background: #fce6f5;
+    }
+
+    .banner {
+        background: #c9048b;
+
+        h1 {
+            font-size: 60px;
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    body {
+        background: green;
+    }
+
+    .banner {
+        margin-top: 60px;
+        background: #faf9af;
+
+        h1 {
+            color: purple;
+        }
+    }
+}

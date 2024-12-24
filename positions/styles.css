@@ -1,7 +1,6 @@
 /*
-position:absolute - relative to the parent with position:relative.
-position:fixed - relative to viewport(screen), stays in place as we are scolling.
-Will use other content to fill out the space.
+position:sticky - toggles between relative and fixed.
+Once the position is set in the viewport - then it sticks one of the values top, left, bottom or right.
 */
 
 .nav {
@@ -9,10 +8,9 @@ Will use other content to fill out the space.
     color: #fff;
     font-size: 1.5rem;
     text-transform: uppercase;
-    position: fixed;
+    position: sticky;
     margin-top: 0;
     top: 0;
-    left: 0;
     width: 100%;
 }
 
