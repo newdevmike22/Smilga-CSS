@@ -1,23 +1,20 @@
 /*
-Basic Selectors
+Descendant and Child Selectors
 */
 
-* {
-    color: blueviolet;
-}
-
-#heading {
-    font-size: 40px;
-    text-transform: uppercase;
-    color: blue;
-}
-
-.heading {
-    font-size: 20px;
-    text-transform: capitalize;
+.header h1 {
     color: green;
 }
 
-p {
-    letter-spacing: 5px;
+.header > h1 {
+    color: purple;
 }
+
+div h1 {
+    color: red;
+}
+
+div > h1 {
+    color: blue;
+}
+
