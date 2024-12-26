@@ -2,6 +2,11 @@
 descendant selectors
 ::first-line ::first-letter
 :hover
+:link - unvisited links with href
+:visited - visited links
+:hover - hover
+:active - as the user clicks
+a - all links
 */
 
 .header h1 {
@@ -43,4 +48,24 @@ h2 {
 h2 a:hover {
     color: pink;
     background: red;
+}
+
+h3 {
+    a {
+        display: block;
+        background: gold;
+        margin: 10px;
+    }
+
+    a:link {
+        color: #fff;
+    }
+
+    a:visited {
+        color: blue;
+    }
+
+    a:active {
+        color: violet;
+    }
 }
