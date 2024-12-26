@@ -17,19 +17,22 @@ div {
 .one {
     background: red;
     /*transform: translateX(10%);*/
-    transform: scaleX(0.5);
+    /*transform: scaleX(0.5);*/
+    transform: rotateZ(20deg);
 }
 
 .two {
     background: blue;
     /*transform: translateY(10%);*/
-    transform: scaleY(1.5);
+    /*transform: scaleY(1.5);*/
+    transform: rotate(380deg);
 }
 
 .three {
     background: green;
     /*transform: translate(30px, 40px);*/
-    transform: scale(2);
+    /*transform: scale(2);*/
+    transform: rotateX(45deg);
 }
 
 /*
