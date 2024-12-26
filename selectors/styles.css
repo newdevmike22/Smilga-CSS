@@ -1,5 +1,6 @@
 /*
-Descendant and Child Selectors
+descendant selectors
+::first-line ::first-letter
 */
 
 .header h1 {
@@ -18,3 +19,14 @@ div > h1 {
     color: blue;
 }
 
+p::first-line {
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+}
+
+p::first-letter {
+    font-size: 3rem;
+    color: #222;
+    font-style: oblique;
+}
