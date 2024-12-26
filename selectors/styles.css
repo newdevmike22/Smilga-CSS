@@ -1,6 +1,7 @@
 /*
 descendant selectors
 ::first-line ::first-letter
+:hover
 */
 
 .header h1 {
@@ -29,4 +30,17 @@ p::first-letter {
     font-size: 3rem;
     color: #222;
     font-style: oblique;
+}
+
+h2 {
+    color: blueviolet;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+h2 a:hover {
+    color: pink;
+    background: red;
 }
