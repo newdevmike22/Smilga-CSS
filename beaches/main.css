@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +7,12 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     line-height: 1.5;
 }
 
 .nav {
     height: 5rem;
-    background: #222;
+    background: #040794;
     padding: 1rem 0;
     position: sticky;
     top: 0;
@@ -24,10 +24,10 @@ body {
         margin: 0 auto;
 
         .nav-title {
-            font-size: 2rem;
-            text-transform: uppercase;
-            font-weight: 700;
-            color: #fff;
+            font-family: Pacifico;
+            font-size: 2.25rem;
+            text-transform: capitalize;
+            color: #fcd71e;
             letter-spacing: 2px;
         }
     }
@@ -35,7 +35,7 @@ body {
 
 .hero {
     min-height: calc(100vh - 5rem);
-    background: rgb(105, 62, 27);
+    background: #315ad6;
     position: relative;
 
     .hero-center {
@@ -49,6 +49,7 @@ body {
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+        font-family: Roboto;
 
         h1 {
             letter-spacing: 2px;
@@ -69,10 +70,11 @@ body {
             text-transform: uppercase;
             color: #fff;
             letter-spacing: 2px;
+            font-weight: 700;
         }
 
         .hero-btn:hover {
-            background: #222;
+            background: #130c75;
         }
     }
 }
@@ -81,14 +83,18 @@ body {
     .hero {
         background: linear-gradient(
             to right,
-            rgba(105, 62, 27, 0.5),
-            rgba(105, 62, 27, 1)
+            rgba(4, 88, 179, 0.6),
+            rgba(105, 175, 250, 1)
         ),
-        url("./images/hero-bcg.jpg") center/cover !important;
-        }
+        url("./images/beach.jpg") center/cover !important;
+    } 
+    
+    .hero-center h1 {
+        color: #130c75;
+    }
 }
 
 .temp {
     min-height: 100vh;
-    background: #e0cdc3;
+    background: #130c75;
 }
