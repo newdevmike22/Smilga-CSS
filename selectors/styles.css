@@ -7,8 +7,11 @@ descendant selectors
 :hover - hover
 :active - as the user clicks
 a - all links
+:root - root element of the element, higher specificity html element
+general styles css variables
 */
 
+/*
 .header h1 {
     color: green;
 }
@@ -68,4 +71,15 @@ h3 {
     a:active {
         color: violet;
     }
-}
+    */
+    :root {
+        font-size: 20px;
+    }
+
+    .absolute {
+        font-size: 24px;
+    }
+
+    .relative {
+        font-size: 1.75rem;
+    }
