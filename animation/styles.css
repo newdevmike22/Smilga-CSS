@@ -1,5 +1,6 @@
 /*
 transform:translate(), scale(), rotate(), skew()
+transition-property
 */
 
 * {
@@ -14,12 +15,18 @@ div {
     display: inline-block;
 }
 
+div:hover {
+    background: coral;
+}
+
 .one {
     background: red;
     /*transform: translateX(10%);*/
     /*transform: scaleX(0.5);*/
     /*transform: rotateZ(20deg);*/
-    transform: skewX(40deg);
+    /*transform: skewX(40deg);*/
+    transition-property: background;
+    transition-duration: 1s;
 }
 
 .two {
@@ -27,7 +34,7 @@ div {
     /*transform: translateY(10%);*/
     /*transform: scaleY(1.5);*/
     /*transform: rotate(380deg);*/
-    transform: skewY(40deg);
+    /*transform: skewY(40deg);*/
 }
 
 .three {
@@ -35,7 +42,7 @@ div {
     /*transform: translate(30px, 40px);*/
     /*transform: scale(2);*/
     /*transform: rotateX(45deg);*/
-    transform: skew(40deg, 30deg);
+    /*transform: skew(40deg, 30deg);*/
 }
 
 /*
