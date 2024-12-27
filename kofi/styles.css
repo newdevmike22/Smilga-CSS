@@ -50,18 +50,23 @@ body {
         transform: translate(-50%, -50%);
         text-align: center;
 
-        h1 {
-            letter-spacing: 2px;
-            text-transform: capitalize;
-            margin-bottom: 0.75rem;
-        }
+        .hero-text {
+            animation: slideFromTop 5s ease-in-out 1;
 
-        p {
-            max-width: 35em;
-            margin: 0 auto;
-            margin-bottom: 1.5rem;
-        }
+            h1 {
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                margin-bottom: 0.75rem;
+            }
 
+
+            p {
+                max-width: 35em;
+                margin: 0 auto;
+                margin-bottom: 1.5rem;
+            }
+        }
+       
         .hero-btn {
             background: transparent;
             border: 1px solid #fff;
@@ -69,6 +74,7 @@ body {
             text-transform: uppercase;
             color: #fff;
             letter-spacing: 2px;
+            animation: slideFromBottom 5s ease-in-out 1;
         }
 
         .hero-btn:hover {
@@ -91,4 +97,28 @@ body {
 .temp {
     min-height: 100vh;
     background: #e0cdc3;
+}
+
+/* animations */
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
