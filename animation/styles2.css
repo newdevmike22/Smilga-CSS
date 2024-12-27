@@ -10,9 +10,10 @@ div {
     height: 100px;
     color: #fff;
     margin: 10px;
+    opacity: 0;
 }
 
-.transition {
+/*.transition {
     background: red;
     transition: all 2s linear;
 }
@@ -20,17 +21,19 @@ div {
 .transition:hover {
     background: gold;
     transform: translateX(100px);
-}
+}*/
 
 .animation {
     background: blue;
+    animation: move 5s 2;
+    animation-fill-mode: forwards;
     /*animation-name: move;
     animation-duration: 10s;
-    animation-iteration-count: 3; */
-    animation: move 5s infinite;
+    animation-iteration-count: 3; 
+    animation: move 5s infinite;*/
 }
 
-@keyframes move {
+/*@keyframes move {
     0% {
         transform: translateX(20px);
     }
@@ -45,5 +48,26 @@ div {
     100% {
         transform: translateX(20px);
         background: green;
+    }
+}*/
+
+@keyframes move {
+    0% {
+        opacity: 0.1;;
+    }
+    25% {
+        transform: translateX(200px);
+        opacity: 0.25;
+    }
+    50% {
+        transform: translateX(-100px);
+        opacity: 0.5;
+    }
+    75% {
+        opacity: 0.75;
+    }   
+    100% {
+        transform: translateX(20px);
+        opacity: 1;
     }
 }
