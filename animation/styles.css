@@ -15,22 +15,22 @@ div {
     display: inline-block;
 }
 
-div:hover {
-    background: coral;
-}
-
 .one {
     background: red;
-    /*transform: translateX(10%);*/
-    /*transform: scaleX(0.5);*/
-    /*transform: rotateZ(20deg);*/
-    /*transform: skewX(40deg);*/
+    /*transform: translateX(10%);
+    transform: scaleX(0.5
+    transform: rotateZ(20deg)
+    transform: skewX(40deg)
     transition-property: background, border-radius;
-    transition-duration: 2s, 1s;
+    transition-duration: 3s, 2s;
+    transition-delay: 1s;*/
+    transition: all 3s 1s;
 }
 
 .one:hover {
     border-radius: 50%;
+    background: coral;
+    transform: scale(1.2);
 }
 
 .two {
