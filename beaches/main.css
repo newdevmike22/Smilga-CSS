@@ -51,16 +51,20 @@ body {
         text-align: center;
         font-family: Roboto;
 
-        h1 {
-            letter-spacing: 2px;
-            text-transform: capitalize;
-            margin-bottom: 0.75rem;
-        }
+        .hero-text {
+            animation: slideFromTop 5s ease-in-out 1;
 
-        p {
-            max-width: 35em;
-            margin: 0 auto;
-            margin-bottom: 1.5rem;
+            h1 {
+                letter-spacing: 2px;
+                text-transform: capitalize;
+                margin-bottom: 0.75rem;
+            }
+    
+            p {
+                max-width: 35em;
+                margin: 0 auto;
+                margin-bottom: 1.5rem;
+            }
         }
 
         .hero-btn {
@@ -71,6 +75,7 @@ body {
             color: #fff;
             letter-spacing: 2px;
             font-weight: 700;
+            animation: slideFromBottom 5s ease-in-out 1;
         }
 
         .hero-btn:hover {
@@ -97,4 +102,26 @@ body {
 .temp {
     min-height: 100vh;
     background: #130c75;
+}
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
